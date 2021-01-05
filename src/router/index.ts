@@ -58,8 +58,8 @@ const routers: IRouterProps[] = [
     isLogin  : true
   },  
   {
-    name     : 'pageC',
-    path     : '/pageC',
+    name     : 'pageB',
+    path     : '/pageB',
     component: pageB,
     isLogin  : true
   },

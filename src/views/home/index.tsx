@@ -1,5 +1,6 @@
 import React, { useEffect, useContext, useState, useCallback } from 'react';
 import { globalContext } from '@/reducer';
+import { Link } from 'react-router-dom';
 import CardItem from './components/cardItem';
 import CountCard from './components/countCard';
 
@@ -31,7 +32,15 @@ const Home: React.FC<{}> = () => {
       <button
         onClick = {() => setCount(count + 1)}
       >Set Count</button>
-      <CountCard callback = { callback } />
+      <CountCard callback={callback} />
+      <div>
+        <ul>
+          <li><Link to="pageA">抛物线</Link></li>
+          <li><Link to="pageB">pageB</Link></li>
+          <li><Link to="pageC">pageC</Link></li>
+          <li><Link to="pageD">pageD</Link></li>
+        </ul>
+      </div>
     </div>
   )
 }
