@@ -1,9 +1,9 @@
 import React from 'react';
 
-const pageB: React.FC<{}> = () => (
+const PageB: React.FC<{}> = () => (
   <>
     pageB
   </>
 )
 
-export default pageB;
+export default PageB;

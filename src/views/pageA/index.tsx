@@ -1,9 +1,14 @@
 import React from 'react';
+import ParabolaPage from './components/parabola';
+import './index.css';
 
-const pageA: React.FC<{}> = () => (
-  <>
-    pageA
-  </>
-)
+const PageA: React.FC<{}> = () => {
+  
+  return (
+    <>
+      <ParabolaPage />
+    </>
+  )
+}
 
-export default pageA;
+export default PageA;
